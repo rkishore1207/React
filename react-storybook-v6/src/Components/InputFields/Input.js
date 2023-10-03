@@ -3,9 +3,9 @@ import './Input.css';
 
 function Input(props)
 {
-    const{variant='small',children,...rest}=props;
+    const{variant='small',...rest}=props;
     return(
-        <input className={`${variant} input-field ...rest`} placeholder={children}></input>
+        <input className={`${variant} input-field`} {...rest}></input>
     )
 }
 
