@@ -7,5 +7,21 @@
 ### Introduction
 * To install StoryBook -> `npx sb init`
 * Story book is the collection of Stories and story maintains vision state of the components
-* 
+### Hierarchy (Groups)
+* To create group between stories, just put forward slash before `Title` at which ever story we want in that same group.
+```javascript
+title:'Form/Button'
+```
+* To create group within group is also a simple task
+```javascript
+title:'Form/Control/Input Fields'
+```
+* To sort the stories alphabetically is by inserting sorting commands in the `Preview file`.
+```javascript
+options: {
+    storySort: (a, b) =>
+    a.id === b.id ? 0 : a.id.localeCompare(b.id, undefined, { numeric: true }),
+},
+```
+
 
