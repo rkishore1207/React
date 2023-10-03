@@ -1,0 +1,22 @@
+.input-field{
+    width: 100px;
+    height:10px;
+    border-radius: 10px;
+    border:2px solid gray;
+    padding: 10px 5px;
+}
+
+.large{
+    width: 300px;
+    border-color: red;
+}
+
+.small{
+    width: 100px;
+    border-color: gray;
+}
+
+.medium{
+    width: 200px;
+    border-color: green;
+}
