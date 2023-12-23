@@ -1,3 +1,2 @@
 console.log("Hello world");
-
-let value: number = 20
+let sales = 123_456;

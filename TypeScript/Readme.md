@@ -34,3 +34,7 @@ Math.Random(number);
 -> "removeComments":"true" //it will remove all the comments which we wrote in the typescript
 -> "noEmitOnError":"true" //if any error in the typescript it won't compile it into javascript
 ```
+## Typescript built-in datatypes
+![Typescript datatypes](https://github.com/rkishore1207/React/assets/146698138/23ad7cba-0b35-4b39-8b82-5dcedd84b7cf)
+
+* In typescript, if we didn't specify the variable type also it will assign **respected type** from the value.
