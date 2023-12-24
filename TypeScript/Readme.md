@@ -50,3 +50,5 @@ let tuple:[number,string] = [2,"Kishore"];
 * Enums should be written as **Pascal Case** in typescript, initially the values for members are 0,1,...
 * But if we assign anything it will vary accordingly.
 * If we assign string to it, we should give string to everything.
+### Functions in Typescript
+* Arguments we are passing is **less or more** when compare with parameters in the function, then it will show error but javascript won't show error.
