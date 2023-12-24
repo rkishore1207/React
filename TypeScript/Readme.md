@@ -38,3 +38,15 @@ Math.Random(number);
 ![Typescript datatypes](https://github.com/rkishore1207/React/assets/146698138/23ad7cba-0b35-4b39-8b82-5dcedd84b7cf)
 
 * In typescript, if we didn't specify the variable type also it will assign **respected type** from the value.
+```javascript
+let array:number[] = [1,2,3];
+//we could not specify more than one data types here in typescript
+```
+```javascript
+let tuple:[number,string] = [2,"Kishore"];
+//exactly same order and same data types should be there
+```
+* `enums` having list of constants with some values, with enums we could make the application `maintainable and readable`.
+* Enums should be written as **Pascal Case** in typescript, initially the values for members are 0,1,...
+* But if we assign anything it will vary accordingly.
+* If we assign string to it, we should give string to everything.
