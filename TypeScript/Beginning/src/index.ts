@@ -1,4 +1,5 @@
-import Bike, { engine } from "./DefaultModule";
+import * as Bikes from "./DefaultModule"; //wildcard import
+import Bike from "./DefaultModule";
 import { Circle } from "./Shapes";
 
 console.log("Hello world");
@@ -41,5 +42,6 @@ console.log(employee.retire(new Date()));
 
 console.log(new Circle(2));
 let bike = new Bike();
-let engines = engine;
+let engines = Bikes.engine;
+let color = new Bikes.color();
 console.log(engines.BS4);

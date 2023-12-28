@@ -58,3 +58,8 @@ let tuple:[number,string] = [2,"Kishore"];
 ## Default exports
 * Only one module wanna export from the class, then use **default** module.
 * Don't need to use **curly braces** in the importing file also.
+## WildCard Import
+* With the `*` character we would store every functionalities in one container.
+## Re-Exporting
+* If one component having lot of module to be export, then we would make that as a different files and import everything in one common file and export there itself.
+* Then wherever we want we can consume the common export.
