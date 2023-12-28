@@ -63,3 +63,6 @@ let tuple:[number,string] = [2,"Kishore"];
 ## Re-Exporting
 * If one component having lot of module to be export, then we would make that as a different files and import everything in one common file and export there itself.
 * Then wherever we want we can consume the common export.
+
+## ReactWithTypescript
+* During useState() declaration we need to tell the datatype of the usestate.
