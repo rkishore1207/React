@@ -52,3 +52,9 @@ let tuple:[number,string] = [2,"Kishore"];
 * If we assign string to it, we should give string to everything.
 ### Functions in Typescript
 * Arguments we are passing is **less or more** when compare with parameters in the function, then it will show error but javascript won't show error.
+## Module Formats
+* Depending upon the **module formats** that we set in the configuration, our exporting statements will be differ.
+* In **Common Js**, everything will be exporting by a `exports` objects and export object having **properties of functions** in the file.
+## Default exports
+* Only one module wanna export from the class, then use **default** module.
+* Don't need to use **curly braces** in the importing file also.

@@ -1,3 +1,4 @@
+import Bike, { engine } from "./DefaultModule";
 import { Circle } from "./Shapes";
 
 console.log("Hello world");
@@ -39,3 +40,6 @@ console.log(employee.retire(new Date()));
 //Exports and Imports
 
 console.log(new Circle(2));
+let bike = new Bike();
+let engines = engine;
+console.log(engines.BS4);
