@@ -1,3 +1,5 @@
+import { Circle } from "./Shapes";
+
 console.log("Hello world");
 let sales = 123_456;
 
@@ -22,7 +24,7 @@ calculate(); //any arguments would pass here will override there or else default
 //Objects
 let employee : {
     id: number,
-    name: string,
+    name: string,//or else we can give name as optional by question mark then we need not to initialize
     retire:(date: Date) => void
 } = {
     id: 2,
@@ -33,3 +35,7 @@ let employee : {
 }
 
 console.log(employee.retire(new Date()));
+
+//Exports and Imports
+
+console.log(new Circle(2));
