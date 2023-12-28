@@ -10,4 +10,19 @@ var Size;
 })(Size || (Size = {}));
 ;
 console.log(Size.Medium);
+function calculate(income = 12) {
+    let x = 2;
+    if ((income || 3) < 2)
+        return 1;
+    return x;
+}
+calculate();
+let employee = {
+    id: 2,
+    name: "Kishore",
+    retire: function (date) {
+        console.log(date);
+    }
+};
+console.log(employee.retire(new Date()));
 //# sourceMappingURL=index.js.map

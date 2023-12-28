@@ -18,3 +18,18 @@ function calculate(income = 12):number{
 }
 
 calculate(); //any arguments would pass here will override there or else default value will assign
+
+//Objects
+let employee : {
+    id: number,
+    name: string,
+    retire:(date: Date) => void
+} = {
+    id: 2,
+    name: "Kishore",
+    retire: function(date: Date){
+        console.log(date);
+    }
+}
+
+console.log(employee.retire(new Date()));
