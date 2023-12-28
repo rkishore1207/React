@@ -4,6 +4,7 @@ import './App.css';
 import Reminder from './Models/Reminder';
 import Reminders from './Components/Reminders';
 import ReminderService from './Services/Reminder';
+import AddReminders from './Components/AddReminders';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+      <AddReminders/>
       <Reminders items={reminders}/>
     </div>
   );
